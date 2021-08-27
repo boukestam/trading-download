@@ -7,7 +7,9 @@
   "license": "ISC",
   "dependencies": {
     "adm-zip": "^0.5.5",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
+    "ftx-api": "^1.0.13",
     "node-binance-api": "^0.12.4",
     "read-last-lines": "^1.8.0",
     "unzip": "^0.1.11"
