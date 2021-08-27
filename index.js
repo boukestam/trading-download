@@ -232,9 +232,9 @@ async function convertText (file, text, delimiter, dateFormat = 'ms', ohlcIndex 
     ]);
   }
 
-  fs.mkdirSync('../webworkers-comlink-typescript-react/public/data/' + file.split('/').slice(0, -1).join('/'), {recursive: true});
+  fs.mkdirSync('../trading-simulator/public/data/' + file.split('/').slice(0, -1).join('/'), {recursive: true});
 
-  buffer.writeToFile('../webworkers-comlink-typescript-react/public/data/' + file.replace('.csv', '.bin').replace('.zip', '.bin'));
+  buffer.writeToFile('../trading-simulator/public/data/' + file.replace('.csv', '.bin').replace('.zip', '.bin'));
   console.log('Converted ' + file);
 }
 
